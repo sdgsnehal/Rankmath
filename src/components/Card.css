@@ -1,0 +1,85 @@
+.card {
+    border: 0px solid #ccc;
+  border-radius: 8px;
+  
+width: 300px;
+  height: 200px;  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  align-items: center; 
+  background-color: white;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  
+}
+.card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; /* To separate the left and right content */
+    align-items: center; /* Align the items to the top */
+  }
+  
+   .left-content {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .right-content {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .Bitcoinicon{
+    font-size: 20px;
+    color: white;
+     background-color: #ffa82b;/* Same background color as .icon */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    
+  }
+  
+  .title-placeholder {
+    font-size: 18px;
+    margin:0px
+  }
+  
+  .short-form-placeholder {
+    font-size: 14px;
+    margin: 0;
+  }
+  .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9a9bb0;
+  }
+  .price h3{
+    background-color: #ed215d;
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100px;
+    border: 0;
+  }
+  .dowm-icon-container{
+    display: flex;
+  justify-content: center;
+  
+  /* align-items: center; */
+  }
+/* @media (max-width: 600px) {
+    .empty-card {
+      width: 80%;
+      height: 150px;
+    }
+  }
+   */
+   

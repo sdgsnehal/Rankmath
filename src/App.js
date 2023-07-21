@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './Fonts/Font.css'
+import Buysellcard from './components/Buysellcard';
+import Card from './components/Card';
+import LineChart from './components/LineGraph';
+
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Card/>
+      <Navbar/>
+      <LineChart/>
+      <div className="buysell-cards-container">
+        <Buysellcard title={"Buy BTC"} color={"#1b92f5"}/>
+        <Buysellcard title={"Sell BTC"} color={"#fd468f"}/>
+      </div>
     </div>
   );
 }

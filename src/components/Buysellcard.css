@@ -1,0 +1,57 @@
+.horizontal-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 80px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+    background-color: white;
+  }
+  
+  /* .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #007bff;
+    margin-bottom: 10px;
+  } */
+  
+  /* .icon img {
+    max-width: 80%;
+    max-height: 80%;
+  } */
+  .circle {
+    /* Styles for the circle icon */
+    font-size: 20px;
+    color: white;
+     /* Same background color as .icon */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+ 
+  .text {
+    text-align: center;
+    margin-top:5px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+  }
+  
